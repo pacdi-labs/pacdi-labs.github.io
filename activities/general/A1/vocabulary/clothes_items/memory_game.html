@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Memory game </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header"  style="background-image: url(header%20triangulo.png); background-repeat: no-repeat;"><div id="headerContent"></div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">The Oscars!</a></li>
+   <li><a href="objective.html" class="no-ch">Objective</a></li>
+   <li><a href="previous_knowledge.html" class="no-ch">Previous Knowledge</a></li>
+   <li><a href="celebrities_clothes.html" class="no-ch">Celebrities' clothes</a></li>
+   <li id="active"><a href="memory_game.html" class="active no-ch">Memory game</a></li>
+   <li><a href="hangman.html" class="no-ch">Hangman</a></li>
+   <li><a href="colors_and_pronunciation.html" class="no-ch">Colors and Pronunciation</a></li>
+   <li><a href="final_practice.html" class="no-ch">Final Practice</a></li>
+   <li><a href="activity_validation.html" class="no-ch">Activity Validation</a></li>
+   <li><a href="sources.html" class="no-ch">Sources</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="celebrities_clothes.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="hangman.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Memory game</h1></header>
+<article class="iDevice_wrapper MemoryMatchIdeviceInc em_iDevice" id="id4">
+<div class="iDevice emphasis1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Memory Game</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<script type="text/javascript">
+// Before in common.js
+function playAndReset(e) {
+    if (e && e.paused == true && e.currentTime == 0) {
+        try {
+            e.play()
+        } catch (t) {}
+    } else {
+        try {
+            e.pause();
+            e.addEventListener("seeked", function() {
+                e.play()
+            }, true);
+            e.currentTime = 0
+        } catch (n) {}
+    }
+}
+
+function playPositiveFeedbackDefault() {
+    var e = Math.floor(Math.random() * 3);
+    var t = document.getElementById("exesfx_good" + e);
+    playAndReset(t)
+}
+
+function playNegativeFeedbackDefault() {
+    var e = document.getElementById("exesfx_wrong");
+    playAndReset(e)
+}
+// / Before in common.js
+</script>
+<script src='memmatch-0.2.js' type='text/javascript'> </script>
+<script src="jquery-ui-1.10.3.custom.min.js" type="text/javascript"> </script>
+
+<script type='text/javascript'>
+var memMatchGame4 = new MemoryMatchGame('4');
+</script>
+
+<div id="ta4_76" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Match the <strong><span style="color: #800000;">words</span></strong> and <strong><span style="color: #800000;">pictures</span></strong> to form <strong>pairs</strong>.</span></p>
+</div>
+
+
+<!-- the elements for the game -->
+<div style='display: none'>
+
+
+<div id='matchitem4_197'>
+    <div id="ta4_197" class="block iDevice_content">
+<p><img src="par1.jpg" alt="" width="220" height="220" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_196'>
+    <div id="ta4_196" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">sneakers</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_199'>
+    <div id="ta4_199" class="block iDevice_content">
+<p><img src="par2.jpg" alt="" width="600" height="600" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_198'>
+    <div id="ta4_198" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">sandals</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_201'>
+    <div id="ta4_201" class="block iDevice_content">
+<p><img src="par3.jpg" alt="" width="700" height="700" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_200'>
+    <div id="ta4_200" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Shirt</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_203'>
+    <div id="ta4_203" class="block iDevice_content">
+<p><img src="par4.jpg" alt="" width="640" height="640" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_202'>
+    <div id="ta4_202" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Dress</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_205'>
+    <div id="ta4_205" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;"><img src="par5.jpg" alt="" width="86" height="110" /></span></p>
+</div>
+
+</div>
+
+<div id='matchitem4_204'>
+    <div id="ta4_204" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Pants</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_207'>
+    <div id="ta4_207" class="block iDevice_content">
+<p><span style="font-size: 12pt;"><img src="par6.jpg" alt="" width="182" height="182" /></span></p>
+</div>
+
+</div>
+
+<div id='matchitem4_206'>
+    <div id="ta4_206" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Coat</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_209'>
+    <div id="ta4_209" class="block iDevice_content">
+<p><img src="par7.jpg" alt="" width="374" height="374" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_208'>
+    <div id="ta4_208" class="block iDevice_content">
+<p><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Boots</span></p>
+</div>
+
+</div>
+
+
+<div id='matchitem4_211'>
+    <div id="ta4_211" class="block iDevice_content">
+<p><img src="par8.jpg" alt="" width="317" height="317" /></p>
+</div>
+
+</div>
+
+<div id='matchitem4_210'>
+    <div id="ta4_210" class="block iDevice_content">
+<p><span style="font-family: verdana, geneva, sans-serif; font-size: 12pt;">Blouse</span></p>
+</div>
+
+</div>
+
+
+</div>
+<script type='text/javascript'>
+memMatchGame4.addPairToMatch('4_197', '4_196');
+memMatchGame4.addPairToMatch('4_199', '4_198');
+memMatchGame4.addPairToMatch('4_201', '4_200');
+memMatchGame4.addPairToMatch('4_203', '4_202');
+memMatchGame4.addPairToMatch('4_205', '4_204');
+memMatchGame4.addPairToMatch('4_207', '4_206');
+memMatchGame4.addPairToMatch('4_209', '4_208');
+memMatchGame4.addPairToMatch('4_211', '4_210');
+</script>
+<div id='mem_feedbackcontainer4' style='position: absolute; z-index: 100; '>
+
+	<div id='memfeedbackpositive4' style='position: absolute; min-width: 100px; min-height: 100px; background-color: white ; padding: 10px; border: 2px solid green;'>
+		<div id="ta4_66" class="block iDevice_content">
+<p><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif; color: #339966;">Perfect!</span></strong></p>
+</div>
+
+	</div>
+
+	<div id='memfeedbacknegative4' style='position: absolute; min-width: 100px; min-height: 100px; background-color: white; padding: 10px; border: 2px solid red;'>
+		<div id="ta4_74" class="block iDevice_content">
+<p><span style="color: #ff0000;"><strong><span style="font-size: 12pt; font-family: verdana, geneva, sans-serif;">Incorrect</span></strong></span></p>
+</div>
+
+	</div>
+</div>
+
+<script type='text/javascript'>
+
+memMatchGame4.gridRows = 4;
+memMatchGame4.gridCols = 4;
+memMatchGame4.cellWidth = 100;
+memMatchGame4.cellHeight = 100;
+memMatchGame4.splitPairs = true;
+
+memMatchGame4.coverImg = "FONDO memory game.jpg";
+memMatchGame4.cellbackImg = "marco negro.jpg";
+memMatchGame4.backgroundImg = "";
+memMatchGame4.feedbackEffects['positive'] = "slide";
+memMatchGame4.feedbackEffects['negative'] = "slide";
+memMatchGame4.hideAfterMatch = true;
+memMatchGame4.useTimer = false;
+memMatchGame4.cellStyle = "text-align: center; font: 18pt bold";
+memMatchGame4.cellPadding = "0";
+memMatchGame4.cellSpacing = "0";
+memMatchGame4.hideAfterMatchEffect = "shake";
+document.writeln(memMatchGame4.generateGrid());
+
+</script>
+<br/>
+<span id='memgame_timelabel4'>  </span>
+<input id='memgame_timer4' style=''/>
+
+
+
+<script type='text/javascript'>
+memMatchGame4.init();
+</script>
+
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="celebrities_clothes.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="hangman.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_carm_js.js"></script></body></html>
